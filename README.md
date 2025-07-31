@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hunghero32/TDZ-Service/main/public/assets/img/TDZ.png" alt="Pet Info Logo">
+  <img src="https://raw.githubusercontent.com/hunghero32/TDZ-Service/main/public/assets/img/TDZ.png?token=GHSAT0AAAAAADGQXAE45U7LM2QFGXU6Y5AQ2EK4LHQ" alt="Pet Info Logo">
   <h1>Pet Info - Căn Cước Thú Cưng 🐾</h1>
   <p>
     <strong>Nền tảng định danh kỹ thuật số (Digital ID) và hệ sinh thái chăm sóc sức khỏe toàn diện hàng đầu cho thú cưng tại Việt Nam.</strong>
