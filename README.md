@@ -83,7 +83,7 @@ Kiến trúc của dự án được lựa chọn kỹ lưỡng để tối ưu 
 
 1.  **Clone repository về máy**
     ```sh
-    git clone [https://github.com/hunghero32/pet-info.git](https://github.com/hunghero32/pet-info.git)
+    git clone https://github.com/hunghero32/pet-info.git
     cd pet-info
     ```
 
