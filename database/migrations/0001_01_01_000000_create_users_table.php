@@ -13,10 +13,25 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
+            $table->string('username')->unique();
             $table->string('name');
+            $table->string('avatar')->nullable();
             $table->string('email')->unique();
+            $table->string('phone')->unique()->nullable();
+            $table->string('social_id')->nullable();
+            $table->string('social_provider')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->enum('role', [
+                'admin',        // Quản trị hệ thống
+                'staff',        // Nhân viên hệ thống
+                'partner',      // Phòng khám, spa, pet shop
+                'collaborator', // Cộng tác viên
+                'owner',        // Chủ nuôi
+                'guest'         // Người xem công khai (chưa đăng ký)
+            ])->default('guest');
+            $table->integer('points')->default(0);
+            $table->boolean('active')->default(true);
             $table->rememberToken();
             $table->timestamps();
         });
