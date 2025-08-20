@@ -35,6 +35,7 @@ return new class extends Migration
             $table->string('public_id')->unique(); // Mã định danh duy nhất cho QR (slug/uuid)
             $table->boolean('is_lost')->default(false); // Trạng thái báo thất lạc
 
+            $table->softDeletes();
             $table->timestamps();
         });
     }
